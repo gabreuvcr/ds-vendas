@@ -1,14 +1,14 @@
 const DataTable = () => {
   return (
     <div className="table-responsive">
-      <table className="table table-striped table-sm">
+      <table className="table table-bordered table-hover">
         <thead>
           <tr>
-            <th>Data</th>
-            <th>Vendedor</th>
-            <th>Clientes visitados</th>
-            <th>Negócios fechados</th>
-            <th>Valor</th>
+            <th scope="col">Data</th>
+            <th scope="col">Vendedor</th>
+            <th scope="col">Clientes visitados</th>
+            <th scope="col">Negócios fechados</th>
+            <th scope="col">Valor</th>
           </tr>
         </thead>
         <tbody>
